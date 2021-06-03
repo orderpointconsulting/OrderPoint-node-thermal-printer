@@ -165,6 +165,21 @@ declare class ThermalPrinter {
   setTypeFontB(): void;
 
   /**
+   * Set font type C
+  */
+   setTypeFontC(): void;
+
+   /**
+   * Set font type D
+  */
+  setTypeFontD(): void;
+
+  /**
+   * Set font type E
+  */
+   setTypeFontE(): void;
+
+  /**
    * Set text size to normal
   */
   setTextNormal(): void;
@@ -183,6 +198,16 @@ declare class ThermalPrinter {
    * Set text size to double height and width
   */
   setTextQuadArea(): void;
+
+  /**
+   * Set text color to black
+  */
+   setTextColorToBlack(): void;
+
+   /**
+   * Set text color to red
+  */
+    setTextColorToRed(): void;
 
   /**
    * Add new line
