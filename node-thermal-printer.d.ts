@@ -193,6 +193,11 @@ declare class ThermalPrinter {
    * Set text size to double width
   */
   setTextDoubleWidth(): void;
+  
+  /**
+   * Set text size to double height & width
+  */
+  setTextDouble(): void;
 
   /**
    * Set text size to double height and width
