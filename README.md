@@ -60,9 +60,13 @@ printer.alignRight();                                       // Align text to rig
 printer.setTypeFontA();                                     // Set font type to A (default)
 printer.setTypeFontB();                                     // Set font type to B
 
+printer.setTextColorToBlack();                              // Set text color to Black
+printer.setTextColorToRed();                                // Set text color to Red
+
 printer.setTextNormal();                                    // Set text to normal
 printer.setTextDoubleHeight();                              // Set text to double height
 printer.setTextDoubleWidth();                               // Set text to double width
+printer.setTextDouble();                                    // Set text to double height & width
 printer.setTextQuadArea();                                  // Set text to quad area
 printer.setTextSize(7,7);                                   // Set text height (0-7) and width (0-7)
 
